@@ -1,0 +1,10 @@
+.heroes__list {
+  list-style: none;
+  padding: 0;
+}
+
+.heroes__name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+

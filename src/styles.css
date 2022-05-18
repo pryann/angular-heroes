@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --gray-dark: #222;
+  --gray-middle: #ddd;
+  --gray-light: #eee;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: var(--gray-dark);
+  background: var(--gray-light);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  padding:.25rem .5rem;
+  border: 1px solid var(--gray-middle);
+}

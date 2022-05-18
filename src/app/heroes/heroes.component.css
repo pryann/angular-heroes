@@ -1,0 +1,49 @@
+.heroes__list {
+  padding: 0;
+  width: 15rem;
+}
+
+.heroes__item {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+
+.heroes__button {
+  background: var(--gray-middle);
+  border: 1px solid var(--gray-middle);
+  border-radius: 0;
+  color: var(--gray-dark);
+  cursor: pointer;
+  display: flex;
+  flex:1;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.heroes__button:hover {
+  background: var(--gray-dark);
+  border-color: var(--gray-dark);
+  color: var(--gray-light);
+}
+
+.heroes__id {
+  font-weight: bolder;
+  margin: 0 1rem 0 0;
+  width: 2rem;
+}
+
+.heroes__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 15rem;
+}
+
+.heroes__remove {
+  background: white;
+  cursor: pointer;
+  color:red;
+  border: 1px solid red;
+  border-radius: 0;
+}

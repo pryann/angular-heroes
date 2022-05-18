@@ -1,0 +1,26 @@
+<div class="heroes">
+
+  <div class="heroes__add">
+    <h2>Create New Hero</h2>
+   <form #newHeroForm>
+      <label for="newHero">Hero Name:</label>
+      <input type="text" name="heroName" id="heroName" #heroName>
+      <button type="button" (click)="add(heroName.value, newHeroForm);">Add</button>
+      <!-- <button type="button" (click)="add(heroName.value); newHeroForm.reset();">Add</button> -->
+      <!-- <button type="button" (click)="add(heroName.value); resetForm(newHeroForm);">Add</button> -->
+   </form>
+  </div>
+
+  <h2 class="heroes__title">Heroes List</h2>
+  <ul class="heroes__list">
+    <li *ngFor="let hero of heroes" class="heroes__item">
+      <a routerLink="/hero-detail/{{hero.id}}" class="heroes__button">
+        <span class="heroes__id">{{ hero.id }}</span>
+        <span class="heroes__name">{{ hero.name }}</span>
+      </a>
+      <button class="heroes__remove" type="button" (click)="remove(hero)">
+        Delete
+      </button>
+    </li>
+  </ul>
+</div>

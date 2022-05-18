@@ -1,0 +1,17 @@
+.container {
+  padding: 1rem;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0%;
+}
+
+.nav__item {
+  display: inline;
+}
+
+.nav__link {
+  display: inline-block;
+  padding: 1rem 1rem 1rem 0;
+} 

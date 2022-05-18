@@ -1,0 +1,24 @@
+{
+  "heroes": [
+    {
+      "id": 6,
+      "name": "Hulkina"
+    },
+    {
+      "name": "Me",
+      "id": 8
+    },
+    {
+      "name": "Batmaaaaaaan",
+      "id": 9
+    },
+    {
+      "name": "Spidermann",
+      "id": 10
+    },
+    {
+      "name": "Captain Jamica",
+      "id": 11
+    }
+  ]
+}
